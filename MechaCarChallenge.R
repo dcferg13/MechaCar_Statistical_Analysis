@@ -18,3 +18,19 @@ total_summary <- summarise(Suspension, Mean=mean(PSI), Median=median(PSI), Varia
 lot <- group_by(Suspension, Manufacturing_Lot)
 lot_summary <- summarize(lot, Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
 
+#Deliverable 3
+#Step 1 Use the t.test() function to determine if the PSI is different for all lots from 1500
+t.test(Suspension$PSI, mu=1500)
+
+#Step2a Subset Manufacturing_Lot
+lot1 <-subset(Suspension,Manufacturing_Lot=='Lot1')
+#lot1
+lot2 <-subset(Suspension,Manufacturing_Lot=='Lot2')
+#lot2
+lot3 <-subset(Suspension,Manufacturing_Lot=='Lot3')
+#lot3
+#Step2b Use the t.test() function to determine if the PSI for each manufacturing lot is different by 1500
+t.test(lot1$PSI, mu=1500)
+t.test(lot2$PSI, mu=1500)
+t.test(lot3$PSI, mu=1500)
+
