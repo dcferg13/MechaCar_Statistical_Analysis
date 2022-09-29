@@ -1,7 +1,8 @@
 # MechaCar_Statistical_Analysis
 3 technical analysis deliverables and a proposal for further statistical study.
 ## Overview
-In this repository
+In this repository we are reviewing the production data and find insights that may help the manufacturing team of AutosRUs. 
+
 ## Linear Regression to Predict MPG
 ![linear_regression](https://user-images.githubusercontent.com/107289345/193132316-a67de0ba-af7c-4d47-ba72-fc60ef2a6947.png)
 
@@ -39,3 +40,9 @@ The results for the t-test to determine if the PSI for **each** manufacturing lo
   - When looking at the t-test results for Lot 3, we can see that the p-value is equal to 0.04, therefore being smaller than the common 0.05 percent. In conclusion, Lot 3, we do have sufficient evidence to reject the null hypothesis.  We can also conclude that the two means are statistically different.  
 
 ## Study Design: MechaCar vs Competition
+
+Another statistical study that can quantify how the MechaCar performs against the competition, would be to test the metrics: weight of the car and safety ratings. As the old saying goes, which many consumers still go by, is lighter the car better milage but safer the car the heavier it is. 
+- Null hypothesis would be the safety ratings are not affected by the weight of the car. The alternative hypothesis would be the safety ratings are affected by the weight of the car.
+- A statistical test that I would use on this hypothesis would be a two-sample test between the weight of the car and the safety ratings. I would use this test because we are testing to variables against each other and trying to find out if there is a statistical difference between them. 
+- Data needed to run this statistical test would be to find the mean of each type of vehicle (suv, sedan, van, truck and coupe) and the average safety ratings per vehicle. 
+
