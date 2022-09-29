@@ -23,6 +23,19 @@ According to MechaCar’s current manufacturing data on suspension coils (varian
 ## T-Tests on Suspension Coils
 ![t_test_for_all](https://user-images.githubusercontent.com/107289345/193123826-21f06db1-7070-4117-aa21-0d2d996208d5.png)
 
+The results for the t-test to determine, if the PSI across **all** manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch, are as follows: 
+
+We can see that our p-value of 0.06 is above the significance level of the common 0.05 percent. In summary, we do not have sufficient evidence to reject the null hypothesis and we can also conclude that the means are statistically similar. 
+
 ![t_test_for_eachLot](https://user-images.githubusercontent.com/107289345/193123840-ff3e495d-0bcf-4d53-b97e-760ab11d21e7.png)
+
+The results for the t-test to determine if the PSI for **each** manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch, are as follows:
+
+- Lot 1
+  -   When looking at the t-test results for Lot 1, we can see that the p-value is equal to 1, therefore being larger than the common 0.05 percent. In conclusion, Lot 1, we do not have sufficient evidence to reject the null hypothesis.  We can also conclude that two means have no statistical difference. 
+- Lot 2
+  - When looking at the t-test results for Lot 2, we can see that the p-value is equal to 0.61, therefore being larger than the common 0.05 percent. In conclusion, Lot 2, we do not have sufficient evidence to reject the null hypothesis.  We can also conclude that the two means are statistically similar.  
+- Lot 3
+  - When looking at the t-test results for Lot 3, we can see that the p-value is equal to 0.04, therefore being smaller than the common 0.05 percent. In conclusion, Lot 3, we do have sufficient evidence to reject the null hypothesis.  We can also conclude that the two means are statistically different.  
 
 ## Study Design: MechaCar vs Competition
